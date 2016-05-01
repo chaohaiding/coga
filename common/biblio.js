@@ -714,7 +714,7 @@ var biblio = {
 		},
 	
 	
-    "Galaburda-1": {
+        "Galaburda-1": {
 		"title": "Dyslexia and Development: Neurobiological Aspects of Extra-ordinary Brains, Part 998",
 
 		"publisher": "Harvard University Press",
@@ -785,6 +785,17 @@ var biblio = {
 		"publishDate": "2013"
 		},
 		
+	"Gruber-1":
+		{
+		"title": "Ontology",
+		"authors": [
+			"Gruber, T."
+		],
+		"etAl": "false",
+		"publisher": "Encyclopedia of Database Systems",
+		"href": "http://tomgruber.org/writing/ontology-definition-2007.htm",
+		"publishDate": "2009"
+		},	
 	 "Hellman-1":
 		{
 		"title": "Usable User Interfaces for Persons with Memory Impairments",
@@ -978,9 +989,36 @@ var biblio = {
 		//"pages": "287-92"
 		},
 	
+	"Lundalv-1": {
+		"title": "AAC vocabulary standardisation and harmonisation",
+		"publisher": "Lecture Notes in Computer Science",
+		"authors": [
+			"Lundalv, M.",
+			"Derbring. S."
+		],
+		"etAl": "false",
+		"href": "http://link.springer.com/chapter/10.1007%2F978-3-642-31534-3_46",
+		//"pages": "303-310",
+		"publishDate": "2012"
+		},
+	
+	"Lundalv-2": {
+		"title": "Inclusive AAC Multi-modal and Multilingual Language Support for All",
+		"publisher": "The 12th European AAATE Conference",
+		"authors": [
+			"Lundalv, M.",
+			"Derbring. S.",
+			"Brännström, A.",
+			"Farre, B.",
+			"Nordberg, L."
+		],
+		"etAl": "false",
+		"href": "http://www.conceptcoding.org/AAATE_2013_Inclusive_AAC-MMLS4All.pdf",
+		"publishDate": "2013"
+		},
+		
 	"Lyon-1": {
 		"title": "Neuroimaging a window to the neurological foundations of learning and behavior in children",
-
 		"publisher": "Brookes Publishing Company",
 		"authors": [
 			"Lyon, G.",
@@ -993,7 +1031,9 @@ var biblio = {
 	
 		"publishDate": "1996"
 		},
-	
+		
+
+		
        "Martinussen-1": {
 		"title": "A Meta-Analysis of Working Memory Impairments in Children With Attention-Deficit/Hyperactivity Disorder",
 		"authors": [
