@@ -60,7 +60,7 @@
                         &lt;img aria-concept=&quot;http://wordnet.org/somepage#girlnode&quot; src=&quot;girlwithbow.gif&quot;/&gt;
                     </pre>
                     <p>
-                        This aria-concept syntax could take advantage of the Concept Coding Framework (CCF). Due to the lack of standardised encoding schemes and common practises, it is difficult to reference to and exchange symbols as an alternative or complement to character based texts. Therefore, the CCF provides a common framework to link and map these symbols (currently Blissymbolics and ARASAAC symbols, and eventually other alternative representations) based on the concept coding. For example, the presentation of cat symbol (concept coding: cc-cat-1001) in this scenario would be as follows:
+                        This aria-concept syntax could take advantage of the Concept Coding Framework (CCF). Due to the lack of standardised encoding schemes and common practises, it is difficult to reference to and exchange symbols as an alternative or complement to character based texts. Therefore, the CCF provides a common framework to link and map these symbols (currently Blissymbolics and ARASAAC symbols, and eventually other alternative representations) based on the concept coding [[Lundalv-1]] [[Lundalv-2]]. For example, the presentation of cat symbol (concept coding: cc-cat-1001) in this scenario would be as follows:
                     </p>
                     <p> For the Cat concept: cc-cat-1001, there are different symbols to represent this concept across different symbols providers.
                         <ul>
@@ -80,7 +80,7 @@
                 <h3>Mapping symbols</h3>
                 <p>
                     In order to map the symbols from different dictionaries, one of the approaches could be the use of an ontology and Semantic Web technologies to enable interoperability of symbols datasets.</p>
-                <p> An ontology is a formal specification of a shared conceptualization (see refs). In Semantic Web, a vocabulary can be considered as a special form of (usually light-weight) ontology, or sometimes also merely as a collection of <a href="http://semanticweb.org/wiki/URI" title="URI">URIs</a> with a (usually informally) described meaning. Linked Data is a term used to describe a recommended best practice for exposing, sharing, and connecting pieces of data, information, and knowledge on the Semantic Web using URIs and RDF (The Resource Description Framework, W3C recommend metadata data model). The Concept Encoding Framework Workout Group (see refs) provides the multilingual and multi-modal lexical ontology resources of the CCF to be made available in a Linked Open Data (LOD) format. It also allows users to search symbols based on different concepts and metadata, such as language, symbol datasets, localization. The following example demonstrates using the RDFa to represent the mapping between symbols based on concept coding.
+                <p> An ontology is a formal specification of a shared conceptualization [[Gruber-1]]. In Semantic Web, a vocabulary can be considered as a special form of (usually light-weight) ontology, or sometimes also merely as a collection of <a href="http://semanticweb.org/wiki/URI" title="URI">URIs</a> with a (usually informally) described meaning. <a href="https://www.w3.org/standards/semanticweb/data">Linked Data</a> is a term used to describe a recommended best practice for exposing, sharing, and connecting pieces of data, information, and knowledge on the Semantic Web using URIs and RDF (The Resource Description Framework, W3C recommend metadata data model). The Concept Encoding Framework Working Group provides the multilingual and multi-modal lexical ontology (<a href="http://lemon-model.net/index.php">Lemon</a> -The Lexicon Model for Ontologies) of the CCF to be made available in a Linked Open Data (LOD) format. It also allows users to search symbols based on different concepts and metadata, such as language, symbol datasets, localization. The following example demonstrates using the RDFa to represent the mapping between symbols based on concept coding.
                 </p>
                 <ul>
                     <li> The ARASAAC monitor symbol:
@@ -127,15 +127,6 @@
             </section>
             <p>This approach mainly requires the symbol dataseat providers to publish the symbols and their concepts as "Linked Open Data". As one of four principles in Linked Data, the URI naming for the concepts could provide the target concept link described in the first solution. It could also provide the alternative same concept symbols based on preferred properties, such as localization, language and colour etc.</p>
         </section>
-    </section>
-    <section>
-        <h2>References</h2>
-        <p>Lundalv, M. &amp; Derbring. S. (2012). AAC vocabulary standardisation and harmonisation.<em> Lecture Notes in Computer Science. 7383,</em> 303-310. doi: 10.1007/978-3-642-31534-3_46.
-            <br />
-            <a href="http://link.springer.com/chapter/10.1007%2F978-3-642-31534-3_46">http://link.springer.com/chapter/10.1007%2F978-3-642-31534-3_46</a> (Accessed 11 June, 2015)
-            <br /> lemon - The Lexicon Model for Ontologies <a href="http://lemon-model.net/index.php">http://lemon-model.net/index.php</a> (Accessed 6th July, 2015)
-            <br /> Lundalv, M., Derbring. S., Brännström, A., Farre, B. &amp; Nordberg, L. (2013) Inclusive AAC Multi-modal and Multilingual Language Support for All <a href="http://www.conceptcoding.org/AAATE_2013_Inclusive_AAC-MMLS4All.pdf">http://www.conceptcoding.org/AAATE_2013_Inclusive_AAC-MMLS4All.pdf</a> (Accessed 6th July, 2015)
-            <br /> Gruber, T. (2009) Ontology definition (updated) http://tomgruber.org/writing/ontology-definition-2007.htm (Accessed 6th July, 2015)</p>
     </section>
     <section>
 </body>
